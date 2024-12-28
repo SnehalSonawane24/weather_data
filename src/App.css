@@ -1,0 +1,61 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.app-name {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.input-fields {
+  margin-bottom: 20px;
+}
+
+.input-box {
+  margin: 5px;
+  padding: 10px;
+  width: 150px;
+  font-size: 16px;
+}
+
+.fetch-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.fetch-button:hover {
+  background-color: #45a049;
+}
+
+.loader {
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 20px;
+}
+
+.weather-data table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.weather-data table, th, td {
+  border: 1px solid black;
+}
+
+.weather-data th, td {
+  padding: 10px;
+  text-align: center;
+}
